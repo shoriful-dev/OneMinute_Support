@@ -1,3 +1,4 @@
+import Features from '@/components/landing/features';
 import Hero from '@/components/landing/hero';
 import Navber from '@/components/landing/nav';
 import SocialProof from '@/components/landing/social';
@@ -8,6 +9,7 @@ const Page = () => {
       <Navber />
       <Hero />
       <SocialProof />
+      <Features />
     </main>
   );
 };
